@@ -1,6 +1,6 @@
 ---
-title: [Review]NeRF: Neural Radiance Fields for View Synthesis
-date: 2025-08-08 18:41:11
+title: "[Review]NeRF: Neural Radiance Fields for View Synthesis"
+date: 2025-08-08 18:41:11 +0900
 categories: [AI, 3D]
 tags: [review]     # TAG names should always be lowercase
 math: true
