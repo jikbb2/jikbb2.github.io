@@ -10,7 +10,7 @@
           <div class="jekyll-linkpreview-description">{{ description }}</div>
         {% endif %}
         <div class="jekyll-linkpreview-footer">
-          <a href="{{ url }}" target="_blank">{{ domain }}</a>
+          <a href="{{ url | replace: "http://", "https://" }}" target="_blank">{{ domain }}</a>
         </div>
       </div>
     </div>
