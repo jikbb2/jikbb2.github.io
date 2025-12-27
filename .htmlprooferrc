@@ -1,0 +1,6 @@
+{
+  "ignore_urls": [
+    "/docs\\.nerf\\.studio/"
+  ],
+  "enforce_https": false
+}
