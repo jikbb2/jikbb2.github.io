@@ -4,7 +4,7 @@
     <div class="jekyll-linkpreview-content">
       <div class="jekyll-linkpreview-body">
         <div class="jekyll-linkpreview-title">
-          <a href="{{ url }}" target="_blank">{{ title }}</a>
+          <a href="{{ url | replace: 'http://', 'https://' }}" target="_blank">{{ title }}</a>
         </div>
         {% if description %}
           <div class="jekyll-linkpreview-description">{{ description }}</div>
@@ -16,6 +16,6 @@
     </div>
   </div>
   {% if image %}
-    <div class="jekyll-linkpreview-image" style="background-image: url('{{ image }}');"></div>
+    <div class="jekyll-linkpreview-image" style="background-image: url('{{ image | replace: "http://", "https://" }}');"></div>
   {% endif %}
 </div>
