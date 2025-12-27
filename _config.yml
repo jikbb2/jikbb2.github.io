@@ -227,3 +227,6 @@ jekyll-archives:
 
 plugins:
   - jekyll-linkpreview
+  
+jekyll_linkpreview:
+  template: "_includes/linkpreview.html"

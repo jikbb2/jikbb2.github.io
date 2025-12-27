@@ -277,7 +277,7 @@ $$L = \sum _{r\in R}[\left\| \hat C_c(r) - C(r) \right\|^2_2 + \left\| \hat C_f(
 
 최종 렌더링은 Fine Network에서 계산된 값($\hat{C}_f(r)$)을 통해 나오지만, coarse 네트워크의 가중치 분포가 Fine Network의 샘플 할당에 사용되므로 Coarse Network의 손실도 최소화하여 정확도를 높일 수 있도록 합니다.
 
-## Additional Implementation Details
+## 6. Additional Implementation Details
 
 ### Volume Bounds
 
@@ -306,7 +306,7 @@ $$L = \sum _{r\in R}[\left\| \hat C_c(r) - C(r) \right\|^2_2 + \left\| \hat C_f(
  
 그리고 5번째 hidden layer에서 skip connection을 위해 한번 더 $x$를 대입합니다.
 
-## 6. Results
+## 7. Results
 
 그래서 NeRF가 실제로 얼마나 뛰어난 성능을 보여주는지, 그리고 기존 방법론들과 비교했을 때 어떤 장단점을 가지는지 살펴보겠습니다. 또한, Ablation Study를 통해 NeRF의 핵심 아이디어들이 성능에 어떤 영향을 미치는지 분석합니다.
 
@@ -359,7 +359,7 @@ NeRF는 정량적 수치(PSNR, SSIM, LPIPS)뿐만 아니라 시각적인 품질(
 - 테이블의 5,6번은 입력 이미지를 100장에서 25장으로 줄여도, 100장을 사용한 기존 모델(NV, SRN, LLFF)보다 성능이 뛰어나다는 것을 보여줍니다. 
 - 테이블의 7,8번은 주파수 설정의 중요성을 알려주고 있습니다. 위치 인코딩의 주파수 $L$이 너무 낮으면(5) 성능이 떨어집니다.하지만 $L$을 무작정 높인다고(10 $\rightarrow$ 15) 성능이 계속 오르지는 않습니다. 샘플링된 이미지의 최대 주파수(나이퀴스트 이론)를 초과하면 이득이 제한적이기 때문입니다.
 
-## 7. Conclusion
+## 8. Conclusion
 
 NeRF가 단순히 이론적으로만 훌륭한 것이 아니라, **"고해상도", "적은 저장 용량", "복잡한 기하학/조명 표현"**이라는 난제들을 실제로 해결했음을 보여줍니다. 특히 기존의 이산적(Discrete) 표현방식(복셀, 메쉬)이 가진 한계를 연속적(Continuous) 함수 표현으로 극복했다는 점이 실험 결과에서 명확히 드러납니다.
 
@@ -367,6 +367,6 @@ NeRF가 단순히 이론적으로만 훌륭한 것이 아니라, **"고해상도
 
 하지만 학습시간이 매우 느리며, 정적인 scene에 대해서만 표현이 가능합니다. 또한 학습을 위해 사진들과 카메라 파라미터 정보가 필요하다는 단점이 존재합니다.
 
-## Reference
+## 9. Reference
 
 {% linkpreview "https://docs.nerf.studio/nerfology/methods/nerf.html" %}
