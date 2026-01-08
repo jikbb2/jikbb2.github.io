@@ -230,3 +230,4 @@ plugins:
   
 jekyll_linkpreview:
   template: "_includes/linkpreview.html"
+  timeout: 30

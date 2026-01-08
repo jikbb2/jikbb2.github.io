@@ -370,20 +370,5 @@ NeRF가 단순히 이론적으로만 훌륭한 것이 아니라, **"고해상도
 ## 9. Reference
 
 {% linkpreview "https://docs.nerf.studio/nerfology/methods/nerf.html" %}
+{% linkpreview "https://arxiv.org/abs/2003.08934" %}
 
-<!--<div class="jekyll-linkpreview-wrapper">-->
-<!--  <div class="jekyll-linkpreview-wrapper-inner">-->
-<!--    <div class="jekyll-linkpreview-content">-->
-<!--      <div class="jekyll-linkpreview-body">-->
-<!--        <div class="jekyll-linkpreview-title">-->
-<!--          <a href="https://docs.nerf.studio/nerfology/methods/nerf.html" target="_blank">Nerfstudio Methods</a>-->
-<!--        </div>-->
-<!--        <div class="jekyll-linkpreview-description">Documentation for Nerfstudio methods.</div>-->
-<!--        <div class="jekyll-linkpreview-footer">-->
-<!--          <a href="https://docs.nerf.studio/nerfology/methods/nerf.html" target="_blank">docs.nerf.studio</a>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--  <div class="jekyll-linkpreview-image" style="background-image: url('https://docs.nerf.studio/assets/images/logo.png');"></div>-->
-<!--</div>-->
