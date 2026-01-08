@@ -11,6 +11,13 @@
     "description": "Jacobian matrix and its geometric meaning",
     "domain": "angeloyeo.github.io",
     "url": "https://angeloyeo.github.io/2020/07/24/Jacobian.html",
-    "image": "https://angeloyeo.github.io/assets/img/logo.png"
+    "image": "https://angeloyeo.github.io/assets/img/profile.png"
+  },
+  "https://en.wikipedia.org/wiki/Table_of_spherical_harmonics": {
+    "title": "Table of spherical harmonics",
+    "description": "List of spherical harmonics functions",
+    "domain": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Table_of_spherical_harmonics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Spherical_Harmonics.png"
   }
 }
